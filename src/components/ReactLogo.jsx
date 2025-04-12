@@ -5,7 +5,9 @@ import React, { useRef } from "react";
 
 const ReactLogo = (props) => {
   const targetRef = useRef(null);
-  const { nodes, materials } = useGLTF("/models/react.glb");
+  const { nodes, materials } = useGLTF(
+    import.meta.env.BASE_URL + "models/react.glb"
+  );
 
   return (
     <Float floatIntensity={1} dispose={null}>
@@ -25,6 +27,6 @@ const ReactLogo = (props) => {
   );
 };
 
-useGLTF.preload("/models/react.glb");
+useGLTF.preload(import.meta.env.BASE_URL + "models/react.glb");
 
 export default ReactLogo;

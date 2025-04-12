@@ -63,8 +63,8 @@ export const myProjects = [
     subdesc:
       "MetaD3 empowers users to explore biopharma data with ease, providing powerful visualization tools that transform complex datasets into actionable insights. Through a variety of dynamic graphs and charts, the platform enables detailed analysis, helping stakeholders uncover trends, make data-driven decisions, and gain a deeper understanding of the biopharma landscape.",
     href: "metad3.innoplexus.in",
-    texture: "/assets/projects/MetaD3/video.mp4",
-    logo: "/assets/projects/MetaD3/logo.png",
+    texture: import.meta.env.BASE_URL + "assets/projects/MetaD3/video.mp4",
+    logo: import.meta.env.BASE_URL + "assets/projects/MetaD3/logo.png",
     logoStyle: {
       backgroundColor: "#2A1816",
       border: "0.2px solid #36201D",
@@ -75,7 +75,7 @@ export const myProjects = [
       {
         id: 1,
         name: "React",
-        path: "/assets/icons/react.svg",
+        path: import.meta.env.BASE_URL + "assets/icons/react.svg",
       },
       {
         id: 2,
@@ -90,8 +90,8 @@ export const myProjects = [
     subdesc:
       "It provides real-time data integration, risk assessments, and market analysis to help companies prioritize assets with the highest return potential. With customizable dashboards, scenario planning, and portfolio management tools, Asset42 enables informed decision-making, enhances collaboration across teams, and optimizes resource allocation, ultimately maximizing the financial value of drug assets throughout the development lifecycle.",
     href: "asset42.innoplexus.in",
-    texture: "/assets/projects/Asset42/video.mp4",
-    logo: "/assets/projects/Asset42/logo.png",
+    texture: import.meta.env.BASE_URL + "assets/projects/Asset42/video.mp4",
+    logo: import.meta.env.BASE_URL + "assets/projects/Asset42/logo.png",
     logoStyle: {
       backgroundColor: "#2A1816",
       border: "0.2px solid #36201D",
@@ -102,7 +102,7 @@ export const myProjects = [
       {
         id: 1,
         name: "Flutter",
-        path: "/assets/icons/flutter-icon.svg",
+        path: import.meta.env.BASE_URL + "assets/icons/flutter-icon.svg",
       },
       {
         id: 2,

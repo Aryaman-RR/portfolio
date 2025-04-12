@@ -5,10 +5,14 @@ import gsap from "gsap";
 
 const DemoComputer = ({ texture, ...props }) => {
   const group = useRef();
-  const { nodes, materials } = useGLTF("/models/computer.glb");
+  const { nodes, materials } = useGLTF(
+    import.meta.env.BASE_URL + "models/computer.glb"
+  );
 
   const txt = useVideoTexture(
-    texture ? texture : "/textures/project/project1.mp4"
+    texture
+      ? texture
+      : import.meta.env.BASE_URL + "textures/project/project1.mp4"
   );
 
   useEffect(() => {
@@ -1015,6 +1019,6 @@ const DemoComputer = ({ texture, ...props }) => {
   );
 };
 
-useGLTF.preload("/models/computer.glb");
+useGLTF.preload(import.meta.env.BASE_URL + "models/computer.glb");
 
 export default DemoComputer;

@@ -23,7 +23,7 @@ const Footer = () => {
           }}
         >
           <img
-            src="/assets/icons/instagram-icon.svg"
+            src={import.meta.env.BASE_URL + "assets/icons/instagram-icon.svg"}
             alt="instagram"
             className="w-1/2 h-1/2"
           />
@@ -39,7 +39,7 @@ const Footer = () => {
           }}
         >
           <img
-            src="/assets/icons/linkedin-icon.svg"
+            src={import.meta.env.BASE_URL + "assets/icons/linkedin-icon.svg"}
             alt="linkedin"
             className="w-1/2 h-1/2"
           />

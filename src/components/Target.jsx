@@ -6,7 +6,7 @@ import React, { useRef } from "react";
 const Target = (props) => {
   const targetRef = useRef();
   const { scene } = useGLTF(
-    "https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/target-stand/model.gltf"
+    import.meta.env.BASE_URL + "models/target-stand/model.gltf"
   );
 
   useGSAP(() => {

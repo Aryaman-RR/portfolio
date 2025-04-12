@@ -60,7 +60,11 @@ const About = () => {
         }
         onPointerOut={() => setAnimationName("idle")}
       >
-        <img src={img_path} alt={tag_name} className="w-4 h-4 mr-2" />
+        <img
+          src={import.meta.env.BASE_URL + img_path}
+          alt={tag_name}
+          className="w-4 h-4 mr-2"
+        />
         {tag_name}
       </span>
     );
@@ -112,7 +116,7 @@ const About = () => {
               onPointerOut={() => setAnimationName("idle")}
             >
               <img
-                src="/assets/ghibli-cropped.png"
+                src={import.meta.env.BASE_URL + "assets/ghibli-cropped.png"}
                 alt="portrait"
                 className="w-full sm:h-[276px] h-fit object-contain"
               />

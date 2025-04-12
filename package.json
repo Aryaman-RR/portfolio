@@ -1,18 +1,23 @@
 {
   "name": "three-js-portfolio",
+  "homepage": "https://aryaman-rr.github.io/portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:prod": "vite build --mode=prod",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "@react-three/drei": "^10.0.4",
     "@react-three/fiber": "^9.1.0",
+    "gh-pages": "^6.3.0",
     "gsap": "^3.12.7",
     "leva": "^0.10.0",
     "maath": "^0.10.8",

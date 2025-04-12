@@ -63,20 +63,24 @@ const Projects = ({ clickedProjectIndex }) => {
               rel="noreferrer"
             >
               <p>Check Live Site</p>
-              <img src="assets/arrow-up.png" className="w-3 h-3" alt="arrow" />
+              <img
+                src={import.meta.env.BASE_URL + "assets/arrow-up.png"}
+                className="w-3 h-3"
+                alt="arrow"
+              />
             </a>
           </div>
           <div className="flex justify-between items-center mt-7">
             <button className="arrow-btn" onClick={() => handleNavigation(-1)}>
               <img
-                src="/assets/left-arrow.png"
+                src={import.meta.env.BASE_URL + "assets/left-arrow.png"}
                 alt="left arrow"
                 className="w-4 h-4"
               />
             </button>
             <button className="arrow-btn" onClick={() => handleNavigation(1)}>
               <img
-                src="/assets/right-arrow.png"
+                src={import.meta.env.BASE_URL + "assets/right-arrow.png"}
                 alt="right arrow"
                 className="w-4 h-4"
               />
