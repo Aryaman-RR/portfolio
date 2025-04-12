@@ -1,4 +1,4 @@
 # My portfolio
 
-A personal portfolio of some of the things I have done In my career.
+A portfolio of some of the things I have done in my career.
 
