@@ -9,8 +9,8 @@
     "build": "vite build",
     "build:prod": "vite build --mode=prod",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
+    "preview": "vite preview --mode=prod",
+    "predeploy": "vite build --mode=prod",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
