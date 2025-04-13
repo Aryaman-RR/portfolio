@@ -5,6 +5,7 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [react()],
     base: mode === "prod" ? "/portfolio/" : "/", // Dynamically set base
+    // base: "/portfolio/", // Set base for GitHub Pages
     build: {
       outDir: "dist",
     },

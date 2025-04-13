@@ -71,21 +71,21 @@ const About = () => {
   };
 
   const techs = [
-    { name: "React.js", img: "/assets/icons/react.svg" },
-    { name: "Node.js", img: "/assets/icons/node-js-icon.svg" },
-    { name: "HTML", img: "/assets/icons/html-icon.svg" },
-    { name: "CSS", img: "/assets/icons/css-icon.svg" },
-    { name: "JavaScript", img: "/assets/icons/javascript-icon.svg" },
-    { name: "Flutter", img: "/assets/icons/flutter-icon.svg" },
-    { name: "Dart", img: "/assets/icons/dart-icon.svg" },
-    { name: "Docker", img: "/assets/icons/docker-icon.svg" },
-    { name: "C++", img: "/assets/icons/c-plus-plus-icon.svg" },
-    { name: "Java", img: "/assets/icons/java-icon.svg" },
-    { name: "SASS", img: "/assets/icons/sass-icon.svg" },
-    { name: "Tailwind", img: "/assets/icons/tailwind-css-icon.svg" },
-    { name: "Postman", img: "/assets/icons/postman-icon.svg" },
-    { name: "Python", img: "/assets/icons/python-icon.svg" },
-    { name: "TypeScript", img: "/assets/icons/typescript-icon.svg" },
+    { name: "React.js", img: "assets/icons/react.svg" },
+    { name: "Node.js", img: "assets/icons/node-js-icon.svg" },
+    { name: "HTML", img: "assets/icons/html-icon.svg" },
+    { name: "CSS", img: "assets/icons/css-icon.svg" },
+    { name: "JavaScript", img: "assets/icons/javascript-icon.svg" },
+    { name: "Flutter", img: "assets/icons/flutter-icon.svg" },
+    { name: "Dart", img: "assets/icons/dart-icon.svg" },
+    { name: "Docker", img: "assets/icons/docker-icon.svg" },
+    { name: "C++", img: "assets/icons/c-plus-plus-icon.svg" },
+    { name: "Java", img: "assets/icons/java-icon.svg" },
+    { name: "SASS", img: "assets/icons/sass-icon.svg" },
+    { name: "Tailwind", img: "assets/icons/tailwind-css-icon.svg" },
+    { name: "Postman", img: "assets/icons/postman-icon.svg" },
+    { name: "Python", img: "assets/icons/python-icon.svg" },
+    { name: "TypeScript", img: "assets/icons/typescript-icon.svg" },
   ];
 
   return (

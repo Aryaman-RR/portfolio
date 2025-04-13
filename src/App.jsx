@@ -7,6 +7,7 @@ import Navbar from "./sections/Navbar";
 function App() {
   return (
     <div className="root-div" style={{ backgroundColor: "#010103" }}>
+      {console.log("import.meta.env.BASE_URL", import.meta.env.BASE_URL)}
       <Navbar />
       <Hero />
       <About />
